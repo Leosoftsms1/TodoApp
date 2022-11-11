@@ -1,0 +1,33 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "todo list app for all users",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leosoftsms1/todoapp.git"
+  },
+  "keywords": [
+    "todo",
+    "list",
+    "app"
+  ],
+  "author": "Leosoftsms",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leosoftsms1/todoapp/issues"
+  },
+  "homepage": "https://github.com/Leosoftsms1/todoapp#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
